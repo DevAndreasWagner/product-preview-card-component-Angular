@@ -1,0 +1,13 @@
+
+button{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    padding: 1rem;
+    width: 14rem;
+    border-radius: 0.5rem;
+    transition: 0.35s;
+    
+}
+button:hover {
+        background-color: hsl(158, 42%, 18%);
+    }

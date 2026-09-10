@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
 })
 export class Button {
   btnText:string = 'Add to Cart';
-  btnImage: string =''
 }
