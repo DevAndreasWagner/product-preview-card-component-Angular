@@ -1,8 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { Card } from './components/card/card';
+import { RouterOutlet } from '@angular/router';
+// import { NotFound } from './components/not-found/not-found';
 
 @Component({
-  imports: [Card],
+  imports: [Card, RouterOutlet],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
