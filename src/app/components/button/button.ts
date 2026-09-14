@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   imports: [],
   selector: 'app-button',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   templateUrl: './button.html',
 })
 export class Button {
+  src :string = 'assets/images/icon-cart.svg'
   btnText:string = 'Add to Cart';
 }

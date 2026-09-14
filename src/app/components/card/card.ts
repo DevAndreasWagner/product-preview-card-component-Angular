@@ -13,4 +13,5 @@ export class Card {
   description:string ='A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.';
   oldPrice:number = 169.99;
   newPrice:number = 149.99;
+  imgSrc:string='assets/images/image-product-desktop.jpg';
 }

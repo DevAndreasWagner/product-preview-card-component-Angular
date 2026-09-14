@@ -1,4 +1,14 @@
-<div>
-    <h1>Hello Card</h1>
-    <app-button></app-button>
+<div class="card">
+    <img src="{{imgSrc}}" alt="">
+    <section>
+        <p>{{category}}</p>
+        <h2>{{title}}</h2>
+        <p>{{description}}</p>
+        <div class="prices">
+            <p>{{oldPrice}}</p>
+            <p>{{newPrice}}</p>
+        </div>
+        <app-button></app-button>
+    </section>
+    
 </div>
