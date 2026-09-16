@@ -1,13 +1,71 @@
 .card {
-    width: 32rem;
-    height: 16rem;
-    background-color: hsl(0, 0%, 100%);
+    width: 36rem;
+    height: 28rem;
+    background-color: white;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+    border-radius: 0.5rem;
+    gap: 1rem;
+
+
+    img {
+        background-position: center;
+        width: 50%;
+        height: 100%;
+        border-radius: 0.5em 0 0 0.5rem;
+    }
 }
 
 section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 1rem;
 }
 
+.category {
+
+    letter-spacing: 0.2rem;
+}
+
+h1 {
+    font-family: "Fraunces";
+    margin: 0;
+
+}
+
+div {
+    margin: 0;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+
+    .new {
+        font-family: "Fraunces";
+        font-size: 1.8em;
+        color: hsl(158, 36%, 37%);
+    }
+    .old {
+        text-decoration: line-through;
+    }
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+}
+
+app-button{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}

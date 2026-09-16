@@ -1,24 +1,22 @@
-
-button{
+button {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
-    padding: 0.5rem 1rem;
-    width: 10rem;
+    padding: 0.8rem 1rem;
+    width: 14rem;
     border-radius: 0.5rem;
     transition: 0.35s;
-    
- 
 }
-button:hover {
-        background-color: hsl(158, 42%, 18%);
-    }
 
-   img{
-        color: hsl(0, 0%, 100%);
-        width: 1rem;
-        height: 1rem;
-    } 
+button:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+img {
+    color: hsl(0, 0%, 100%);
+    width: 1rem;
+    height: 1rem;
+}
